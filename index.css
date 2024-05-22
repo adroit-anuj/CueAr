@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0c2d48;
+}
+
+.box{
+    padding: 30px 30px;
+    width:500px;
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.box p{
+    font-weight: 200;
+    padding-left:50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box input{
+    width:100%;
+    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: 0;
+    border-radius: 20px;
+    background-color: #ced6d2;
+
+}
+
+.box button {
+    height: 50px;
+    padding: 15px 35px;
+    margin-top: 15px;
+    margin-left: 20%;
+    border: unset;
+    border-radius: 50px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .box button::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #409ccd;
+    z-index: -1;
+    /* -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27); */
+    /* box-shadow: 4px 8px 19px -3px rgba(182, 15, 15, 0.27); */
+    transition: all .5s;
+   }
+
+
+   
+.box button:hover {
+    color: #e8e8e8;
+    transition: 1s;
+   }
+
+.box button:hover:after{
+    color:black;
+    transition: 1s;
+}
+   
+.box button:hover::before {
+    width: 100%;
+   }
+
+.box img{
+    margin-top: 30px;
+    margin-left: 31%;
+    transition: 1s;
+}
+
+/* #imgBox{
+    width:200px;
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s;
+} */
+
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .animation {
+    font: bold 200% Consolas, Monaco, monospace;
+    border-right: .1em solid black;
+    width: 31.3ch;
+    /* margin: 2em 2em; */
+
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(30, end),
+                 blink-caret 1s step-end infinite ;
+  }
