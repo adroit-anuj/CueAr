@@ -1,6 +1,6 @@
 <h1>https://adroit-anuj.github.io/QR_Code/</h1>
 
-# QR Code Generator
+# CueAr
 
 This project is a simple web application that generates QR codes from user input text or URLs. It utilizes HTML, CSS, and JavaScript to create an interactive interface where users can input their desired text or URL and instantly generate a corresponding QR code.
 
