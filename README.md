@@ -41,9 +41,22 @@ To use this project locally:
 
 4. Open `index.html` in a web browser.
 
+### Screenshots:-
+
+![Screenshot 2024-06-23 at 3 54 14 PM](https://github.com/adroit-anuj/QR_Code/assets/134070793/1d0bf560-5caf-4b8d-9e58-2a8b57fd2e82)
+
+![Screenshot 2024-06-23 at 3 54 42 PM](https://github.com/adroit-anuj/QR_Code/assets/134070793/87397258-a9fa-44f4-b328-3a09f8517f75)
+
+![Screenshot 2024-06-23 at 3 55 04 PM](https://github.com/adroit-anuj/QR_Code/assets/134070793/c353d27a-a741-4f92-a4eb-bb959739152f)
+
+![Screenshot 2024-06-23 at 3 55 26 PM](https://github.com/adroit-anuj/QR_Code/assets/134070793/97ee7555-701c-4369-bfd6-0771b30421a8)
+
+
 #### Additional Notes
 
 - Ensure you have an active internet connection to generate QR codes as it relies on an external API.
 - Customize the CSS or HTML as per your design preferences to enhance the look and feel of the application.
 
 This project serves as a basic implementation of a QR code generator and can be expanded further with additional features or integrations as needed.
+
+
