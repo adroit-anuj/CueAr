@@ -41,7 +41,9 @@ To use this project locally:
 
 4. Open `index.html` in a web browser.
 
-### Screenshots:-
+### Screenshots and Sample Video :-
+
+https://github.com/adroit-anuj/QR_Code/assets/134070793/79d5f3e4-7001-428a-af0d-6a5e68d5c5a1
 
 ![Screenshot 2024-06-23 at 3 54 14 PM](https://github.com/adroit-anuj/QR_Code/assets/134070793/1d0bf560-5caf-4b8d-9e58-2a8b57fd2e82)
 
