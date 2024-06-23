@@ -83,6 +83,8 @@ body{
 .box button:hover {
     color: #e8e8e8;
     transition: 1s;
+    cursor : pointer;
+
    }
 
 .box button:hover:after{
