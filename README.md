@@ -32,17 +32,12 @@ To use this project locally:
 1. Clone or download the project repository to your local machine.
 2. Save the files in your local machine in the given fashion:-
    
-   qr-generator/
-   
-   │
-   
-   ├── index.html
-   
-   ├── index.css
-   
-   ├── index.js
-   
-   └── README.md
+   qr-generator/  
+   │  
+   ├── index.html  
+   ├── index.css  
+   ├── index.js  
+   └── README.md  
 
 4. Open `index.html` in a web browser.
 
