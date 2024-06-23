@@ -17,7 +17,7 @@ This project is a simple web application that generates QR codes from user input
 - **HTML**: Structured the webpage and created input fields.
 - **CSS**: Styled the elements for a visually appealing interface.
 - **JavaScript**: Implemented functionality to fetch and display QR codes using an external API.
-- **External API**: Utilizes the QR Code API from `https://api.qrserver.com/v1/` to generate QR codes dynamically based on user input.
+- **External API**: Utilizes the QR Code API from <a href="https://api.qrserver.com">`https://api.qrserver.com/v1/`</a> to generate QR codes dynamically based on user input.
 
 #### Files Included
 
